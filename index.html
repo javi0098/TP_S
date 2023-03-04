@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+    <title>Document</title>
+    
+</head>
+<body>
+<H1>FORMULARIO DE VENTAS</H1>
+<h2>Completa los datos de contacto</h2>
+<form name="form-ventas">
+    <div>
+        <label>Nombre</label>
+        <input type="text" name="nombre" id="nombre"/>
+
+    </div>
+    <br>
+    <div>
+        <label>Apellido</label>
+        <input type="text" name="apellido" id="apellido"/>
+    </div>
+    <br>
+    <div>
+        <label>Email</label>
+        <input type="email" name="email" id="email"/>
+    </div>
+    <br>
+    <div>
+        <label>Telefono</label>
+        <input type="tel" name="telefono" id="telefono"/>
+    </div>
+    <br>
+    <div>
+        <label>TIPOS DE SEGUROS</label>
+        <select id="selector" onchange="validar()">
+            <option value="1">BASICO</option>
+            <option value="2">INTERMEDIO</option>
+            <option value="3">PREMIUM</option>
+        </select>
+    </div>
+    <label id="label1">VALOR = $ </label>
+    <br>
+    <div>
+        <button >presioname</button>
+    </div>
+    <br>
+ 
+</form>
+<script src="C:\Users\JAVIER\Documents\CURSOS\REACT UTN\CLASE 1\CODIGO\validate.js"></script>
+</body>
+
+</html>
